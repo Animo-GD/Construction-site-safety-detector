@@ -7,7 +7,7 @@ nc = ["Gloves","Helmet","Human","Safety Boot","Safety Vest",
 
 vid = cv2.VideoCapture("Videos/worker3.mp4")
 fourcc = cv2.VideoWriter_fourcc(*"mp4v")
-out = cv2.VideoWriter("output_video5.mp4",fourcc,25,(3840,2160))
+out = cv2.VideoWriter("output_video.mp4",fourcc,25,(3840,2160))
 model = YOLO("best.pt")
 
 while True:
